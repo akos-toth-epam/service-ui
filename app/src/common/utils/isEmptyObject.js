@@ -19,11 +19,6 @@
  * along with Report Portal.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-@import 'login';
-@import 'login-login';
-@import 'login-reset';
-@import 'login-restore';
-@import 'login-login-auth-button';
-@import 'login-versions';
-@import 'login-versions-item';
-@import 'login-demo';
+export function isEmptyObject(obj) {
+  return Object.keys(obj).length === 0;
+}
